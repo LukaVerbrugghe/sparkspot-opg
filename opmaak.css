@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: caviar-bold;
-    src: url(fonts/CaviarDreams.ttf);
+    src: url(fonts/CaviarDreams_Bold.ttf);
 }
 
 body{
@@ -94,4 +94,19 @@ nav li a:hover{
 h2{
     font-family: caviar-bold;
     font-size: 3em;
+    margin: 0.1em;
+}
+
+/* 2e tekstblokj */
+#howitworks{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    line-height: 1.8em;
+}
+
+#howitworks p{
+    margin-top: 2em;
+    font-weight: 600;
+    font-size: 1.1em;
 }
