@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "caviar-bold";
+    src: url(fonts/CaviarDreams_Bold.ttf);
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* wrapper */
 #wrapper{
     width: 80%;
@@ -79,4 +88,9 @@ nav li a:hover{
     padding: 0.1em;
     margin-top: 1em;
     border-radius: 1em;
+}
+
+/* titels */
+h1{
+    font-family: caviar-bold;
 }
