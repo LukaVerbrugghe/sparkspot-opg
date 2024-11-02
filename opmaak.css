@@ -61,7 +61,8 @@ nav li a:hover{
 /* layout */
 #parkchargevisit{
     display: flex;
-    margin-top: 2em
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 #parkchargevisit .tekst{
@@ -103,6 +104,9 @@ h2{
     margin: auto;
     text-align: center;
     line-height: 1.8em;
+
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 
 #howitworks p{
