@@ -1,0 +1,5 @@
+1) Wrapper toevoegen: alle elementen binnen body zitten hierin
+2) CSS: wrapper 80% width + margin: auto
+3) div menu en nav
+4) met flexbox layout menu (op #menu en nav ul)
+4) menuitems visual

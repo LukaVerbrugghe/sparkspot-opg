@@ -1,0 +1,49 @@
+/* Standaardcode (margin en padding resetten om ongewenste resultaten te voorkomen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* wrapper */
+#wrapper{
+    width: 80%;
+    margin: auto;
+}
+
+/* Bovenbalk */
+#menu{
+    display: flex;
+    justify-content: space-between;
+
+    /* onderlijntje */
+    padding-bottom: 1em;
+    border-bottom: gray 1px solid;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 2em;
+}
+
+/* Menuitems visual */
+nav li{
+    list-style: none;
+    margin-top: 1.5em;
+}
+
+nav li a{
+    text-decoration: none;
+    color: gray;
+    font-size: large;
+    font-variant: small-caps;
+}
+
+/* menuitems hover */
+nav li a:hover{
+    color: black;
+    font-weight: bold;
+    border-bottom: lime 5px solid;
+}
