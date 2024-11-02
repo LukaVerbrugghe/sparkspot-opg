@@ -18,7 +18,7 @@
 
     /* onderlijntje */
     padding-bottom: 1em;
-    border-bottom: gray 1px solid;
+    border-bottom: gray 2px solid;
 }
 
 nav ul{
@@ -46,4 +46,37 @@ nav li a:hover{
     color: black;
     font-weight: bold;
     border-bottom: lime 5px solid;
+}
+
+/* eerste tekstblokje */
+/* layout */
+#parkchargevisit{
+    display: flex;
+    margin-top: 2em
+}
+
+#parkchargevisit .tekst{
+    width: 54%;
+}
+
+#parkchargevisit .afbeelding{
+    width: 46%;
+    display: flex;
+    gap: 4%;
+    margin-left: 2%;
+}
+
+#parkchargevisit .afbeelding img{
+    width: 50%;
+    height: auto;
+}
+
+/* button */
+.button{
+    background-color: lime;
+    width: 35%;
+    text-align: center;
+    padding: 0.1em;
+    margin-top: 1em;
+    border-radius: 1em;
 }
