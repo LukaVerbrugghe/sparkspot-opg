@@ -6,8 +6,8 @@
 }
 
 @font-face {
-    font-family: "caviar-bold";
-    src: url(fonts/CaviarDreams_Bold.ttf);
+    font-family: caviar-bold;
+    src: url(fonts/CaviarDreams.ttf);
 }
 
 body{
@@ -91,6 +91,7 @@ nav li a:hover{
 }
 
 /* titels */
-h1{
+h2{
     font-family: caviar-bold;
+    font-size: 3em;
 }
