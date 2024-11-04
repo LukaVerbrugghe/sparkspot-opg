@@ -12,6 +12,7 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 3em;
 }
 
 /* wrapper */
@@ -53,8 +54,7 @@ nav li a{
 /* menuitems hover */
 nav li a:hover{
     color: black;
-    font-weight: bold;
-    border-bottom: lime 5px solid;
+    border-bottom: #9FFF45 5px solid;
 }
 
 /* eerste tekstblokje */
@@ -99,18 +99,15 @@ h2{
 }
 
 /* 2e tekstblokje */
-#howitworks{
-    width: 70%;
-    margin: auto;
+.howitworks{
     text-align: center;
-    line-height: 1.8em;
-
     margin-top: 2em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
-#howitworks p{
-    margin-top: 2em;
-    font-weight: 600;
-    font-size: 1.1em;
+.howitworks p{
+    font-size: 1.5em;
+    line-height: 1.8em;
 }
