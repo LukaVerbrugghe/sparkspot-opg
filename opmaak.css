@@ -111,3 +111,53 @@ h2{
     font-size: 1.5em;
     line-height: 1.8em;
 }
+
+.zoekboekparkeer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.zoekboekparkeer h2{
+    font-size: 1.3em;
+}
+
+.zoek, .boek, .parkeer{
+    width: 32%;
+    border-radius: 2em;
+    padding: 1.5em;
+}
+
+.zoek{
+    background-color: #9FFF45;
+    position: relative;
+    border: solid 3px white;
+}
+
+.boek{
+    background-color: #CFFFA2;
+    position: relative;
+    border: solid 3px white;
+}
+
+.parkeer{
+    background-color: #F3F4F6;
+    position: relative;
+    border: solid 3px white;
+}
+
+.zoek img, .boek img, .parkeer img{
+    display: none;
+}
+
+.zoek:hover, .boek:hover, .parkeer:hover{
+    border: solid 3px darkred;
+}
+
+.zoek:hover img, .boek:hover img, .parkeer:hover img{
+    display: block;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+}
